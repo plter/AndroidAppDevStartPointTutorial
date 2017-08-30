@@ -1,0 +1,88 @@
+package com.plter.usingexternalstorage;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.os.Environment;
+import android.view.Menu;
+
+public class MainActivity extends Activity {
+	
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+		
+		
+//		System.out.println(Environment.getExternalStorageDirectory().getAbsolutePath());
+		
+//		writeData();
+		
+		readData();
+	}
+	
+	
+	private void readData(){
+		File f = new File(Environment.getExternalStorageDirectory(), "data.txt");
+		InputStream in;
+		try {
+			in = new FileInputStream(f);
+			BufferedReader br = new BufferedReader(new InputStreamReader(in));
+			
+			String line=null;
+			StringBuffer sb = new StringBuffer();
+			
+			while((line=br.readLine())!=null){
+				sb.append(line);
+			}
+			in.close();
+			System.out.println(sb.toString());
+			
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+		
+	}
+	
+	
+	private void writeData(){
+		
+		try {
+			File f = new File(Environment.getExternalStorageDirectory(), "data.txt");
+			if (!f.exists()) {
+				f.createNewFile();
+			}
+			
+			OutputStream os = new FileOutputStream(f);
+			os.write("Data in sdcard".getBytes());
+			os.close();
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+	}
+	
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.main, menu);
+		return true;
+	}
+
+}

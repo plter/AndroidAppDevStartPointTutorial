@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009" 
+			   xmlns:s="library://ns.adobe.com/flex/spark" applicationDPI="160">
+	
+	<fx:Script>
+		<![CDATA[
+			protected function btn_clickHandler(event:MouseEvent):void
+			{
+				trace("Button Clicked");
+			}
+		]]>
+	</fx:Script>
+	
+	<fx:Declarations>
+		<!-- 将非可视元素（例如服务、值对象）放在此处 -->
+	</fx:Declarations>
+	
+	<s:layout>
+		<s:VerticalLayout/>
+	</s:layout>
+	
+	<s:Label text="Hello Android"/>
+	<s:Button id="btn" label="Click me" click="btn_clickHandler(event)"/>
+</s:Application>

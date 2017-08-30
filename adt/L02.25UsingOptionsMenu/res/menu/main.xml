@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/action_settings"/>
+    <item
+        android:id="@+id/action_house"
+        android:orderInCategory="100"
+        android:title="房子"/>
+    <item
+        android:id="@+id/action_lp"
+        android:orderInCategory="100"
+        android:title="老婆"/>
+    <item
+        android:id="@+id/action_car"
+        android:orderInCategory="100"
+        android:title="车"/>
+
+</menu>

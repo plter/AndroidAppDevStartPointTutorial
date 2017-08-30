@@ -1,0 +1,12 @@
+/Users/plter/Work/gitroot/AndroidLessons/AndroidLessons20130101/code/xamarin/L10.10HelloAndroid/L10.10HelloAndroid/bin/Debug/L10.10HelloAndroid.dll.mdb
+/Users/plter/Work/gitroot/AndroidLessons/AndroidLessons20130101/code/xamarin/L10.10HelloAndroid/L10.10HelloAndroid/bin/Debug/L10.10HelloAndroid.dll
+/Users/plter/Work/gitroot/AndroidLessons/AndroidLessons20130101/code/xamarin/L10.10HelloAndroid/L10.10HelloAndroid/bin/Debug/L10.x10HelloAndroid.apk
+/Users/plter/Work/gitroot/AndroidLessons/AndroidLessons20130101/code/xamarin/L10.10HelloAndroid/L10.10HelloAndroid/obj/Debug/android/bin/L10.x10HelloAndroid.apk
+/Users/plter/Work/gitroot/AndroidLessons/AndroidLessons20130101/code/xamarin/L10.10HelloAndroid/L10.10HelloAndroid/obj/Debug/res/layout/main.xml
+/Users/plter/Work/gitroot/AndroidLessons/AndroidLessons20130101/code/xamarin/L10.10HelloAndroid/L10.10HelloAndroid/obj/Debug/res/values/strings.xml
+/Users/plter/Work/gitroot/AndroidLessons/AndroidLessons20130101/code/xamarin/L10.10HelloAndroid/L10.10HelloAndroid/obj/Debug/res/drawable/icon.png
+/Users/plter/Work/gitroot/AndroidLessons/AndroidLessons20130101/code/xamarin/L10.10HelloAndroid/L10.10HelloAndroid/obj/Debug/R.cs.flag
+/Users/plter/Work/gitroot/AndroidLessons/AndroidLessons20130101/code/xamarin/L10.10HelloAndroid/L10.10HelloAndroid/bin/Debug/L10.x10HelloAndroid-Signed.apk
+/Users/plter/Work/gitroot/AndroidLessons/AndroidLessons20130101/code/xamarin/L10.10HelloAndroid/L10.10HelloAndroid/obj/Debug/uploadflags.txt
+/Users/plter/Work/gitroot/AndroidLessons/AndroidLessons20130101/code/xamarin/L10.10HelloAndroid/L10.10HelloAndroid/obj/Debug/L10.10HelloAndroid.dll
+/Users/plter/Work/gitroot/AndroidLessons/AndroidLessons20130101/code/xamarin/L10.10HelloAndroid/L10.10HelloAndroid/obj/Debug/L10.10HelloAndroid.dll.mdb

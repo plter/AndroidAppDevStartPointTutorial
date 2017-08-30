@@ -1,0 +1,1 @@
+L10.HelloAndroid.Activity1;l10.helloandroid.Activity1

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialLayout="@layout/my_aw_layout"
+    android:minHeight="100dp"
+    android:minWidth="100dp"
+    android:updatePeriodMillis="60000"
+    android:configure="com.plter.addappwidgetsconfig.MainActivity" >
+
+</appwidget-provider>
